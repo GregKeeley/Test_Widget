@@ -44,7 +44,7 @@ struct Widget1EntryView : View { // View of the widget
     var body: some View { // Content of view
         Text(entry.date, style: .date)
         Text(entry.date, style: .time)
-        Image(systemName: "photo")
+        Image(systemName: "heart")
     }
 }
 
